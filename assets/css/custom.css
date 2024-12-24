@@ -32,3 +32,27 @@
 .tooltip:hover .tooltip-image {
     visibility: visible;
 }
+
+.certificate-image {
+    max-width: 200px; /* Adjust width */
+    max-height: 150px; /* Adjust height */
+    object-fit: contain; /* Keeps aspect ratio */
+    margin: 0 auto; /* Centers the image */
+}
+
+
+
+.carousel-indicators button.active {
+    opacity: 1;
+}
+
+.carousel-indicators button {
+    background-color: black;
+}
+
+.carousel-indicators {
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
